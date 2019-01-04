@@ -7,6 +7,7 @@ HTML body {
 #headBar{
 	width: 100%;
 	height:50px;
+	position: fixed;
 }
 
 #Block{
@@ -24,13 +25,42 @@ HTML body {
 }
 
 #sidesection{
-	width:;
+	width: 20%;
+	height: auto;
+	margin-top: 100px;
+	--background-color: #3FB6CC;
+	float: right;
+	margin-right: 10%;
+	margin-left: 70%;
+	display: inline-block;
+	position: fixed;
+	
+}
+
+#navBox{
+	width: 100%;
+	background-color: #CCCCCC;
+	height: 350px;
+	--display: inline-block;
+	position: none;
+}
+
+#colorBlindSlides{
+	width: 100%;
+	height: 300px;
+	background-color: #CCCCCC;
+	--display: inline-block;
+	margin-top: 50px;
+	position: none;
 }
 
 #ContentScroll{
-	width:auto;
-	height:1000px;
-	margin-left: 10%;
-	margin-right: 10%;
+	width:60%;
+	height:4000px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 100px;
 	background-color: #CCCCCC;
+	float: left;
+	display: inline-block;
 }
