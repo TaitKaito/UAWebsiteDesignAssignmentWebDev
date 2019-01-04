@@ -11,14 +11,14 @@ HTML body {
 
 #Block{
 	width: 100%;
-	height:10%;
+	height:20%;
 	background-color: #E51B24;
 	display: inline-block;
 }
 
 #SpanBar{
 	width:100%;
-	height:90%;
+	height:80%;
 	background-color: #1D1D1D;
 	display: inline-block;
 }
